@@ -1,0 +1,24 @@
+.center-body {
+  text-align: center;
+}
+
+.center-body .logo {
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+}
+
+.center-body .country_list {
+  margin: 60px 0;
+  font-family: "Helvetica";
+}
+
+.country_list .a-tag {
+  color: #58595b;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+#photo {
+  width: 90%;
+}

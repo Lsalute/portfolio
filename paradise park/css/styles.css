@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    min-width: 768px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  /* side navbar */
+  
+  #side-navbar {
+    background-color: black;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+  }
+  
+  /* 코드를 입력하세요! */
+  #logo {
+      margin-top : 30px;
+      margin-bottom : 50px;
+      position : relative;
+      width : 150px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+
+  #side-navbar-lists{
+    padding-left : 22px;
+    margin:0;
+  }
+  .side_navbar_list{
+    list-style: none;
+    margin-bottom : 30px;
+  }
+  .side_navbar_list:last-child{
+    margin-bottom: 60px;
+  }
+  .side_navbar_list a{
+    text-decoration: none;
+    color : white;
+  }
+
+  #social_network_logo_table{
+    text-align: center;
+    
+  }
+  .social_network_logo {
+    width:25px;
+    margin-top: 25px;
+  }
+  .social_network_logo:first-child{
+    margin-right: 13px;
+  }
+  
+  /* main */
+  
+  #main {
+    margin-left: 250px;
+  }
+  
+  #main .hero-header {
+    text-align: center;
+    background-image: url("../images/hero_header.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 750px;
+    line-height: 750px;
+  }
+  
+  #main .info {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+  }
+  
+  #main h1 {
+    margin: 0;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 38px;
+  }
+  
+  #main a {
+    padding: 10px 40px;
+    border: 2px solid white;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
